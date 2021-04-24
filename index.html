@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <base href="./">
+    <title>Vishesh_House_Prediction</title>
+    <meta property="og:title" content="main - house_price" />
+    <meta name="twitter:title" content="main - house_price" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <!-- Compressed Styles -->
+    <link href="css/slides.min.css?51351" rel="stylesheet" type="text/css">
+
+   
+    <!-- Fonts and Material Icons -->
+    <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;800&family=Montserrat:wght@200&family=Montserrat&family=Material+Icons&display=swap"/>
+
+    <style type="text/css">
+        .slides,
+        .slides p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+        }
+        .slides h1,
+        .slides h2,
+        .slides h3,
+        .slides h4,
+        .slides h5,
+        .slides h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 200;
+        }
+        .slides .button,
+        .slides .slides-form {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+    </style>
+     
+</head>
+<body class="slides animated noPreload">
+<svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none" id="customSvgLibrary">
+  
+ </svg>
+ 
+
+ </svg><!-- Navigation -->
+<nav class="side medium">
+  <div class="navigation default">
+    <ul></ul>
+  </div>
+</nav>   
+<!-- Slide 2 (#07) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <img src="assets/img/vishesh_logo.jpeg" alt="Vishesh logo" title="HousePriceDekho" style="width:130px;"/>
+      <div class="container">
+      <div class="wrap">
+
+        <div class="fix-11-12">
+          <h1 class="cropBottom ae-1 fromCenter smaller">
+              <big><b>Casualty Severity Prediction System</b></big>
+              </br>
+          </br>
+
+              Machine Learning based Casualty Severity Prediction System Model with 98% Accuracy
+          </h1>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/rare.jpg)"></div>
+</section>
+<!-- Panel Bottom #13 -->
+<nav class="panel bottom hideOnScroll">
+  <div class="sections">
+    <div class="center">
+      <ul class="menu crop">
+        <li><a href="https://www.facebook.com/xtylishvishesh" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+        <li><a href="https://twitter.com/Visheshjha12" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li><a href="https://www.instagram.com/the__dragon__dude/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Slide 2 (#09) -->
+<section class="slide fade-6 kenBurns">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-12-12">
+          <div class="fix-3-12">
+            <svg height="77" class="wide ae-1 fromCenter">
+          </div>
+          
+            </div>
+          <p class="large ae-3"><span class="opacity-8"><big>Predict Now and Know Your <b>Safer Zone</b></big> </span></p>
+          <form class="slides-form" action="#">
+            <input type="text" class="rounded input-9 ae-4 fromCenter" id="Numofvec" placeholder="Enter Number of Person" val =""/>
+            <select id="Roadsurf"> class="ae-4 fromCenter">
+            <option >Select the Road Surfaces
+            </option>
+            <option value="1">  Racing Track</option>
+            <option value="2"> Highway </option>
+            <option value="3"> Village-Area </option>
+            <option value="4">  City-Area</option>
+            </select>
+
+            <select id="Lightcond">class="ae-4 fromCenter">
+                <option>Light Condition </option>
+                <option value="1">Low</option>
+                <option value="2">Medium</option>
+                <option value="3">High</option>
+              </select>
+              
+              <select id="Weathercond">class="ae-4 fromCenter">
+                <option>Weather Condition?</option>
+                <option value="1">Rain</option>
+                <option value="2">Sunny</option>
+                <option value="3">Snowfall</option>
+              </select>
+            
+               <select id="Casualtyvic">class="ae-4 fromCenter">
+                <option>Whom is Driving ?</option>
+                <option value="1">Self</option>
+                <option value="2">Driver</option>
+              </select>
+              <select id="Gender">
+                <option>Gender?</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Other</option>
+              </select>
+             <input type="text" class="rounded input-9 ae-4 fromCenter" id="Age" placeholder="Enter Age of Driver" val =""/>
+              
+              <select id="VehicleTyp">
+                <option>Vechicle Type</option>
+                <option value="1">2 Wheeler</option>
+                <option value="2">4 Wheeler</option>
+                <option value="3">6 Wheeler</option>
+              </select>
+               
+            <button type="button" class="button blue rounded button-9 ae-7 fromCenter" name="button" id="predict_btn">Predict
+            Casualty Severity</button>
+            <h2 id="result"></h2>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/road.jpg)"></div>
+</section>
+
+
+<!-- Panel Bottom #13 -->
+<nav class="panel bottom hideOnScroll">
+  <div class="sections">
+    <div class="center">
+      <ul class="menu crop">
+        <li><a href="https://www.facebook.com/xtylishvishesh" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+        <li><a href="https://twitter.com/Visheshjha12" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+        <li><a href="https://www.instagram.com/the__dragon__dude/" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- jQuery 3.5.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Compressed Scripts -->
+    <script src="js/slides.min.js?51351" type="text/javascript"></script>
+     
+</body>
+<script>
+    $(document).ready(function(){
+        
+        $("#predict_btn").click(function(){
+            
+          var Numofvec = $("#Numofvec ").val();
+          var Roadsurf =$("#Roadsurf option:selected").val();
+          var Lightcond =$("#Lightcond option:selected").val();
+          var Weathercond =$("#Weathercond option:selected").val();
+          var Casualtyvic =$("#Casualtyvic option:selected").val();
+          var Gender =$("#Gender option:selected").val();
+          var Age =$("#Age").val();
+          var VehicleTyp =$("#VehicleTyp option:selected").val();
+          $.get("cpredict.php",{"Numofvec":Numofvec,"Roadsurf":Roadsurf,"Lightcond":Lightcond,"Weathercond":Weathercond,"Casualtyvic":Casualtyvic,"Gender":Age,"Age":gashw,"VehicleTyp":VehicleTyp}, function(response){
+              
+              $("#result").html(response)
+          });
+            
+        });
+    
+        
+    });
+
+    
+    
+</script>
+<script type="text/javascript">
+    window._mfq = window._mfq || [];
+    (function() {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.defer = true;
+        mf.src = "//cdn.mouseflow.com/projects/b5781532-b85f-493d-a012-d1b702f2d52f.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+    })();
+</script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ee258114a7c6258179a6887/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+917004045392", // WhatsApp number
+            call_to_action: "Message us", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+</html>
+Button.io widget -->
+</html>
