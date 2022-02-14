@@ -3,7 +3,7 @@
 Estimates by the World Health Organization suggest that, on a yearly basis, road crashes kill 1.25 million people—nearly 3400 road fatalities per day—and injure up to 50 million.
 
 Traffic injuries are not equally spread over the world, however; some countries are hit harder than others, and the chance of being killed in a road crash depends on where one lives.\
-Almost 90% of all traffic casualties occur in low- and middle-income countries (LMIC).\
+Almost 90% of all traffic casualties occur in low- and middle-income countries (LMIC).
 
 Globally, the number of fatalities per 100,000 population (mortality rate) ranges from less than 3 to almost 40.
 
