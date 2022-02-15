@@ -1,15 +1,18 @@
 ## Introduction
+According to the survey of WHO around 1.25Million people get injured and killed due to road accident. And this number is increasing day by day. 
 
-Estimates by the World Health Organization suggest that, on a yearly basis, road crashes kill 1.25 million people—nearly 3400 road fatalities per day—and injure up to 50 million.
+Whenever we talk about any accident only 2-3 factors are come into our mind like 
 
-Traffic injuries are not equally spread over the world, however; some countries are hit harder than others, and the chance of being killed in a road crash depends on where one lives.\
-Almost 90% of all traffic casualties occur in low- and middle-income countries (LMIC).
+Either the speed of vehicle is very high | Either the driver is not professional | Either the driver is drunk
 
-Globally, the number of fatalities per 100,000 population (mortality rate) ranges from less than 3 to almost 40.
+But in reality, there are some other factors which also plays major role in any accident like No of Passenger | Vehicle Type | Road Type | Weather Condition etc.
+This Project is based upon supervised machine learning which will going to predict the risk-level of your accident.
+Level-0 i.e LOW level-1 HIGH level-2 Very HIGH
 
-The rate is less than 9 in high-income countries (HIC) but averages around 20 in LMIC, with the African region demonstrating the highest rate (26.6).
+This project follows SEMMA MODEL Methodology to predict the zone. SEMMA stands for SAMPLE, EXPLORE, MODIFY, MODEL, ACCESS.
 
-While road safety trends have been positive in HIC over the last few decades, trends in LMIC are not telling a positive story: road fatalities are expected to increase to almost 2 million road fatalities per year by 2020.
+I have dataset of 2500+ accident their causes which plays a role for that particular accident on the basis of this dataset my system will predict the zone with 95% accuracy. This is the Phase-01 of my project in which basically user have to give all the factors manually after that my ML model will predict the zone.
+
 
 ![image](https://user-images.githubusercontent.com/61939693/153763104-5cf9ba70-7e76-4754-afc4-ee55c7764f00.png)
 
