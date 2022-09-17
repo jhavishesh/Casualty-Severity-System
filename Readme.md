@@ -11,7 +11,7 @@ Level-0 i.e LOW level-1 HIGH level-2 Very HIGH
 
 This project follows SEMMA MODEL Methodology to predict the zone. SEMMA stands for SAMPLE, EXPLORE, MODIFY, MODEL, ACCESS.
 
-I have dataset of 2500+ accident their causes which plays a role for that particular accident on the basis of this dataset my system will predict the zone with 95% accuracy. This is the Phase-01 of my project in which basically user have to give all the factors manually after that my ML model will predict the zone.
+I have dataset of 2500+ accident their causes which plays a role for that particular accident on the basis of this dataset my system will predict the zone with 91% accuracy. This is the Phase-01 of my project in which basically user have to give all the factors manually after that my ML model will predict the zone.
 
 
 ![image](https://user-images.githubusercontent.com/61939693/153763104-5cf9ba70-7e76-4754-afc4-ee55c7764f00.png)
